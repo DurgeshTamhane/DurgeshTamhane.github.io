@@ -19,15 +19,15 @@ main:
   - title: "Projects"
     url: /projects/
         
-  - title: "Blog Posts"
+  - title: "Posts"
     url: /year-archive/
 
-  - title: "Talks"
+  - title: "Presentations"
     url: /talks/
 
     
-  - title: "CV"
-    url: /cv/
+  #- title: "CV"
+   # url: /cv/
     
   # - title: "CV"
   #   url: /cv-json/
