@@ -1,6 +1,5 @@
-
 ---
-title: "Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage"
+title: 'Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage'
 collection: publications
 category: manuscripts
 permalink: /publication/Aug2022_jconbuildmat
