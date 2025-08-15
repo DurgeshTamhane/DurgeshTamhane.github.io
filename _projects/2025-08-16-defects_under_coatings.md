@@ -1,7 +1,6 @@
 ---
-title: "Detection of Defect in Steel Sheets  Under Coatings by Magnetic Flux Leakage"
+title: "AI for Corrosion Prediction"
 date: 2025-08-16
-description: ""
-
+description: "ML models to predict coating degradation using electrochemical and weight change data."
 ---
-Coming Soon
+Detailed project description goes here.
