@@ -1,7 +1,8 @@
 ---
 title: "From School Lab to Scientific Paper: How You Can Publish Your First Research"
 date: 2025-08-16
-
+tags: [Research, Education, High School, Publication]
+description: "A step-by-step guide for high school students on turning simple experiments into publishable research papers."
 ---
 
 ## From School Lab to Scientific Paper: How You Can Publish Your First Research
