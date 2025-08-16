@@ -4,7 +4,9 @@ title: "Projects"
 permalink: /projects/
 author_profile: true
 ---
+
 {% include base_path %}
-{% for item in site.projects %}
-  {% include archive-single.html %}
+
+{% for post in site.projects %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
