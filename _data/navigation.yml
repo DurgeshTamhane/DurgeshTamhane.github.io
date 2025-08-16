@@ -16,8 +16,8 @@ main:
     url: /projects/
 
     
-  - title: "Portfolio"
-    url: /portfolio/
+ # - title: "Portfolio"
+ #   url: /portfolio/
 
  # - title: "Presentations"
   #  url: /talks/
