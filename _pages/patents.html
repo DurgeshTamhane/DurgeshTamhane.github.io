@@ -4,7 +4,9 @@ title: "Patents"
 permalink: /patents/
 author_profile: true
 ---
+
 {% include base_path %}
-{% for item in site.patents %}
-  {% include archive-single.html %}
+
+{% for post in site.patents %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
