@@ -1,7 +1,8 @@
 ---
 title: "Effect of Temperature on Soda Fizz Speed"
 date: 2025-08-16
-
+tags: [Research, Science Experiment, High School]
+description: "A simple high school experiment showing how temperature affects the fizzing speed of soda, written in research paper style."
 ---
 
 # Effect of Temperature on Soda Fizz Speed
