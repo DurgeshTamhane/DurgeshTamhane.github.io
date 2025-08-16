@@ -4,6 +4,7 @@ date: 2025-08-16
 description: "ML models to predict coating degradation using electrochemical and weight change data."
 layout: archive
 collection: projects
+author-profilr: true
 ---
 
 ## Overview
