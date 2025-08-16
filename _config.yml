@@ -293,7 +293,7 @@ defaults:
       share: true
 
     #_projects
-      - scope:
+ - scope:
       path: ""
       type: projects
     values:
