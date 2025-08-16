@@ -26,6 +26,9 @@ High school students are familiar with the fizz that occurs when soda bottles ar
   4. Repeat the test three times for each temperature.  
 
 ## Results
+
+Here’s what we observed:
+
 | Temperature (°C) | Trial 1 (s) | Trial 2 (s) | Trial 3 (s) | Average Time (s) |
 |------------------|-------------|-------------|-------------|------------------|
 | 5                | 210         | 200         | 215         | 208              |
