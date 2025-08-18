@@ -1,6 +1,7 @@
 ---
 title: "See–Think–Wonder with Phyphox: Turning Observations into Science"
 author: "Durgesh Tamhane"
+description: "An activity to get you started with research using your smartphone."
 categories: [Science, Education, Experiments]
 tags: [SeeThinkWonder, Phyphox, STEM, DataCollection, ClassroomActivity]
 ---
