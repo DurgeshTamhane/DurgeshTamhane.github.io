@@ -4,7 +4,7 @@ layout: single
 excerpt_separator: <!--more-->
 ---
 
-An apparatus uses electromechanical impedance (EMI) sensing with an ultrasonic transducer attached to a sacrificial anode to monitor its corrosion in a cathodic protection system.
+An apparatus that employs electromechanical impedance (EMI) sensing through an ultrasonic transducer attached to a sacrificial anode, enabling precise monitoring of its corrosion within cathodic protection systems.
 <!--more-->
 ---
 
