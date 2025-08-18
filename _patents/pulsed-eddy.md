@@ -1,5 +1,5 @@
 ---
-title: "Apparatus and method for detecting corrosion of conducting material based on pulsed eddy current."
+title: "Apparatus and method for detecting corrosion of conducting material based on pulsed eddy current"
 layout: single
 ---
 A pulsed eddy current–based apparatus detects corrosion in conducting materials by using an excitation coil, magnetic field sensor, and a controller that analyzes response signals to identify corroded regions.
