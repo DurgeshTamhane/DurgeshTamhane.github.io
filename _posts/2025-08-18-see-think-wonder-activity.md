@@ -4,7 +4,6 @@ author: "Durgesh Tamhane"
 description: "An activity to get you started with research using your smartphone."
 categories: [Science, Education, Experiments]
 tags: [SeeThinkWonder, Phyphox, STEM, DataCollection, ClassroomActivity]
----
 excerpt_separator: <!--more-->
 ---
 
