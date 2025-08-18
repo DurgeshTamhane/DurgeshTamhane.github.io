@@ -68,7 +68,7 @@ Example:
 - Stop recording after 2 minutes.  
 
 **Example Result Graph:**  
-![Lunch Break Noise Example](/assets/images/lunch_break_noise_example_optimized.png)  
+![Lunch Break Noise Example](/files/posts/images/lunch_break_noise_example_optimized.png)  
 *This graph shows a stable noise baseline before the bell, a sharp peak at the bell, and a gradual decay afterward.*
 
 ---
@@ -79,7 +79,7 @@ Example:
 **Question (Wonder):** What is the pattern of light intensity from morning to evening?  
 
 **Example Result Graph:**  
-![Light Intensity Example](/assets/images/light_intensity_example_optimized.png)  
+![Light Intensity Example](/files/posts/images/light_intensity_example_optimized.png)  
 *The graph shows a clear midday peak in brightness, matching the prediction.*
 
 ---
@@ -90,7 +90,7 @@ Example:
 **Question (Wonder):** How much does the magnetic field strength vary at different spots in the classroom?  
 
 **Example Result Graph:**  
-![Magnetic Field Example](/assets/images/magnetic_field_example_optimized.png)  
+![Magnetic Field Example](/files/posts/images/magnetic_field_example_optimized.png)  
 *The bar chart shows strong magnetic fields near laptops and chargers.*
 
 ---
