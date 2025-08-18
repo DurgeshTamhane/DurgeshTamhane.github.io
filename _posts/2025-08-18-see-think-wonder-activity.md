@@ -5,6 +5,11 @@ description: "An activity to get you started with research using your smartphone
 categories: [Science, Education, Experiments]
 tags: [SeeThinkWonder, Phyphox, STEM, DataCollection, ClassroomActivity]
 ---
+excerpt_separator: <!--more-->
+---
+
+An activity to get you started with research using your smartphone.  
+<!--more-->
 
 ## Introduction
 Science often begins with curiosity — noticing something, wondering why it happens, and finding a way to test it.  
