@@ -4,6 +4,11 @@ date: 2025-08-13
 layout: single
 author_profile: true
 sidebar: true
+excerpt_separator: <!--more-->
+---
+
+How to begin to see think and wonder like a researcher.
+<!--more-->
 ---
 
 ## Goal  
