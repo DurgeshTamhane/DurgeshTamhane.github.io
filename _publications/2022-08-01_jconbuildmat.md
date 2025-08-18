@@ -7,7 +7,7 @@ excerpt: 'This study demonstrates that electro-mechanical impedance (EMI) sensin
 date: 2022-08-01
 venue: 'Construction and Building Materials'
 paperurl: 'http://durgeshtamhane.github.io/files/paper1.pdf'
-bibtexurl: 'http://durgeshtamhane.github.io/files/bibtex1.bib'
+bibtexurl: 'http://durgeshtamhane.github.io/files/publications/BibTeX/S0950061822017019.bib'
 citation: 'Tamhane D. Performance evaluation of electro-mechanical impedance based state of health estimation of sacrificial anodes in reinforced concrete structures. Constr Build Mater. 2022.'
 ---
 
