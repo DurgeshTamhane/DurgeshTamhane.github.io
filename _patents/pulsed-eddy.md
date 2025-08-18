@@ -11,4 +11,4 @@ This patent describes an apparatus for non-destructive corrosion detection in co
 ## Downloads
 [Patent Document](/files/patents/documents/485364_document.pdf)
 |
-[Patent Certificate](/files/patents/certificates/485364_certificate.pdf)
+[Patent Certificate](/files/patents/certificates/certificate_485364.pdf)
