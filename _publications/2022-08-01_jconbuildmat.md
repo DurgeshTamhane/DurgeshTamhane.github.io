@@ -6,7 +6,7 @@ permalink: /publication/Aug2022_jconbuildmat
 excerpt: 'This study demonstrates that electro-mechanical impedance (EMI) sensing with PZT transducers can sensitively track the state-of-health of sacrificial anodes embedded in concrete. The RMSD of conductance spectra offers a non-destructive, real-time metric for monitoring anode degradation.'
 date: 2022-08-01
 venue: 'Construction and Building Materials'
-paperurl: 'http://durgeshtamhane.github.io/files/2022-08-01_jconbuildmat.pdf'
+paperurl: 'http://durgeshtamhane.github.io/files/publications/pdfs/2022-08-01_jconbuildmat.pdf'
 bibtexurl: 'http://durgeshtamhane.github.io/files/publications/BibTeX/S0950061822017019.bib'
 citation: 'Tamhane D. Performance evaluation of electro-mechanical impedance based state of health estimation of sacrificial anodes in reinforced concrete structures. Constr Build Mater. 2022.'
 ---
