@@ -23,8 +23,8 @@ paving the way for IoT-enabled, real-time structural health monitoring of critic
 
 
 ## Key Findings
-- **Resonance tracking:** Shifts in radial expansion mode frequencies of PZT–anode assemblies directly quantify zinc anode degradation.  
-- **High sensitivity:** EMI detects early-stage corrosion more effectively than conventional electrochemical monitoring.  
-- **Analytical & FEM validation:** Nonlinear effects of zinc-oxide delamination are captured well by models and supported by experiments.  
-- **Smart cathodic protection:** First demonstration of a cathodic protection system with built-in real-time sensing of sacrificial anode health.  
+- Resonance frequency shifts of PZT–anode assemblies directly indicate zinc sacrificial anode degradation.  
+- The EMI technique provides high sensitivity to early-stage corrosion.  
+- Analytical and finite element models capture the nonlinear effects of zinc-oxide delamination observed experimentally.  
+- Demonstrates the first cathodic protection system with built-in, real-time sensing of sacrificial anode health.  
 
