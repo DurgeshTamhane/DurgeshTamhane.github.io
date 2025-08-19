@@ -23,3 +23,10 @@ even under nonlinear delamination dynamics.
 
 By combining simplicity, real-time applicability, and robustness, this technique opens a path for non-destructive,
 quantitative assessment of sacrificial anodes in smart cathodic protection systems.
+
+## Key Findings
+- **Inverse graphical method:** Estimates uncorroded zinc and zinc-oxide layer thicknesses directly from two resonance frequencies (radial and transverse modes).  
+- **Calibration-free:** Does not require prior training or iterative optimization, unlike traditional inverse techniques.  
+- **Validation:** Finite element simulations show <5% error; accelerated corrosion tests confirm agreement with model predictions.  
+- **Practical advantage:** Lightweight, computationally inexpensive approach suitable for real-time monitoring of sacrificial anodes in cathodic protection systems.  
+
