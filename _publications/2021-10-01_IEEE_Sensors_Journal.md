@@ -25,7 +25,9 @@ The approach demonstrates that PCA-based feature engineering substantially boost
 paving the way for portable, field-deployable NDT systems for real-time rebar corrosion monitoring.
 
 ## Key Findings
-- **PEC probe design:** Compact coil + AMR sensor probe detects rebar corrosion at lift-offs up to 55 mm with only 0.2 A excitation.  
-- **Feature engineering:** Area-under-the-curve (AUC) features from time-domain PEC signals improve sensitivity over raw signals.  
-- **PCA application:** Principal component analysis enhances discr
+- A pulsed eddy current (PEC) probe with an AMR sensor detects rebar corrosion at lift-offs up to 55 mm with low excitation current.  
+- Area-under-the-curve (AUC) features from PEC signals improve sensitivity compared to raw signals.  
+- Principal component analysis (PCA) enhances corrosion discrimination and robustness at larger lift-offs.  
+- PCA-based features enable quantitative estimation of rebar diameter loss, validated with accelerated corrosion and chamfered samples.  
+
 
