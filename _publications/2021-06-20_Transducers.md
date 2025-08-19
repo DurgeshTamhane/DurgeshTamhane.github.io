@@ -6,7 +6,7 @@ permalink: /publication/Jun2021_transducers
 excerpt: "Presents a calibration-free contour-plot (graphical) technique to extract zinc and zinc-oxide film thicknesses from resonance frequencies in EMI spectra. Validated with FEA and impressed-current corrosion experiments, the method is computationally light and suitable for in-situ anode health monitoring."
 date: 2021-06-20
 venue: "IEEE International Conference on Solid-State Sensors, Actuators and Microsystems (Transducers)"
-paperurl: "http://durgeshtamhane.github.io/files/2021-06-20_Transducers.pdf"
+paperurl: "http://durgeshtamhane.github.io/files/publications/pdfs/2021-06-20_Transducers.pdf"
 citation: "Thalapil J., Tamhane D., Banerjee S., Tallur S. Corrosion Monitoring of Sacrificial Anodes Based on Contour Plot Analysis of Electro-Mechanical Impedance Spectra. Proc. Transducers 2021."
 ---
 
