@@ -6,7 +6,7 @@ permalink: /publication/Jan2021_ieeeaccess
 excerpt: "This work introduces an EMI-based smart cathodic protection system that non-destructively quantifies early-stage corrosion of zinc sacrificial anodes. Analytical and experimental results show that resonance frequency shifts in PZT-anode assemblies provide a reliable metric for real-time anode degradation monitoring."
 date: 2021-01-22
 venue: "IEEE Access"
-paperurl: "http://durgeshtamhane.github.io/files/2021-01-22_IEEE_Access.pdf"
+paperurl: "http://durgeshtamhane.github.io/files/publications/pdfs/2021-01-22_IEEE_Access.pdf"
 bibtexurl: ""
 citation: "Tamhane D., Thalapil J., Banerjee S., Tallur S. Smart Cathodic Protection System for Real-Time Quantitative Assessment of Corrosion of Sacrificial Anode Based on Electro-Mechanical Impedance (EMI). IEEE Access. 2021;9:12229–12240."
 ---
