@@ -16,10 +16,9 @@ PZT transducer for electro-mechanical impedance (EMI) measurements and deploy a 
 EMI sensitivity is quantified via the RMSD of conductance spectra around resonant peaks, while PEC analysis uses area-under-the-curve (AUC)
 features of time-domain responses. Finite element simulations corroborate the experiments.
 
-###Key findings
+## Key Findings
+- EMI shows very high sensitivity to the onset (incipient) corrosion but its sensitivity declines nonlinearly over time due to delamination of corrosion by-products.  
+- PEC shows excellent linearity across the full accelerated-corrosion duration and is therefore better suited for tracking cumulative material loss.  
+- An effective monitoring strategy would exploit EMI for early detection and PEC for lifetime tracking.  
+- FEM models and experimental measurements agree with the observed comparative performance.  
 
-EMI shows very high sensitivity to the onset (incipient) corrosion but its sensitivity declines nonlinearly
-over time due to delamination of corrosion by-products; PEC shows excellent linearity across the full
-accelerated-corrosion duration and is therefore better suited for tracking cumulative material loss.
-The authors conclude that an effective monitoring strategy would exploit EMI for early detection and PEC for lifetime tracking, 
-and they demonstrate the methods’ agreement with FEM models and experimental measurements.
