@@ -6,7 +6,7 @@ permalink: /publication/Apr2022_ieeesensors
 excerpt: "A head-to-head comparison of pulsed eddy current (PEC) and electro-mechanical impedance (EMI) techniques for quantifying corrosion of zinc sacrificial anodes. Experiments and FEM show EMI is highly sensitive to incipient corrosion while PEC provides linear tracking over anode lifetime — suggesting a combined sensing strategy."
 date: 2022-04-15
 venue: "IEEE Sensors Journal"
-paperurl: "http://durgeshtamhane.github.io/files/2022-04-15_IEEE_Sensors_Journal.pdf"
+paperurl: "http://durgeshtamhane.github.io/files/publications/pdfs/2022-04-15_IEEE_Sensors_Journal.pdf"
 citation: "Tamhane D., Banerjee S., Tallur S. Monitoring Corrosion in Sacrificial Anodes With Pulsed Eddy Current and Electromechanical Impedance: A Comparative Analysis. IEEE Sensors J. 2022;22(8):8147–8154. doi:10.1109/JSEN.2022.3157646."
 ---
 
