@@ -6,7 +6,7 @@ permalink: /publication/Oct2021_ieeesensors
 excerpt: "This paper presents a pulsed eddy current probe with an AMR sensor for non-destructive rebar corrosion detection. By applying PCA to time-domain features, the system enhances sensitivity at large lift-offs and enables quantitative estimation of rebar diameter loss."
 date: 2021-10-01
 venue: "IEEE Sensors Journal"
-paperurl: "http://durgeshtamhane.github.io/files/2021-10-01_IEEE_Sensors_Journal.pdf"
+paperurl: "http://durgeshtamhane.github.io/files/publications/pdfs/2021-10-01_IEEE_Sensors_Journal.pdf"
 citation: "Tamhane D., Patil J., Banerjee S., Tallur S. Feature Engineering of Time-Domain Signals Based on Principal Component Analysis for Rebar Corrosion Assessment Using Pulse Eddy Current. IEEE Sensors Journal. 2021;21(19):22086–22094. doi:10.1109/JSEN.2021.3103545."
 ---
 
