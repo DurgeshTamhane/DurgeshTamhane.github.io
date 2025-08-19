@@ -20,3 +20,11 @@ and zinc oxide delamination. An analytical model, supported by finite element va
 partial delamination. To the authors’ knowledge, this represents the first demonstration of a cathodic protection system with
 built-in sensing of sacrificial anode degradation, 
 paving the way for IoT-enabled, real-time structural health monitoring of critical infrastructure.
+
+
+## Key Findings
+- **Resonance tracking:** Shifts in radial expansion mode frequencies of PZT–anode assemblies directly quantify zinc anode degradation.  
+- **High sensitivity:** EMI detects early-stage corrosion more effectively than conventional electrochemical monitoring.  
+- **Analytical & FEM validation:** Nonlinear effects of zinc-oxide delamination are captured well by models and supported by experiments.  
+- **Smart cathodic protection:** First demonstration of a cathodic protection system with built-in real-time sensing of sacrificial anode health.  
+
