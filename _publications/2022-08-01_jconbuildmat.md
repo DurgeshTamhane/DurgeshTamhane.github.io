@@ -22,15 +22,11 @@ Accelerated corrosion experiments under impressed current demonstrate that the r
 
 Unlike conventional destructive or indirect electrochemical methods, this approach enables non-destructive, deterministic, and real-time state-of-health monitoring of sacrificial anodes embedded within concrete systems.
 
-##Key Findings
-
-High sensitivity: RMSD of EMI spectra detects early and progressive corrosion of zinc sacrificial anodes in mortar and concrete.
-
-Nonlinear evolution: RMSD increases nonlinearly with impressed current duration, explained by delamination and damping captured in analytical/FE models.
-
-Validation: Experimental observations are consistent with finite element simulations of PZT–anode interaction.
-
-Advantage over conventional methods: Enables in-situ, non-destructive, real-time monitoring of anode degradation.
+## Key Findings
+- RMSD of EMI spectra sensitively tracks degradation of zinc sacrificial anodes in mortar and concrete.  
+- RMSD evolution is nonlinear with corrosion time, explained by delamination and damping effects.  
+- Analytical and finite element models agree with experimental observations.  
+- Provides a non-destructive, real-time method for monitoring anode health in reinforced concrete structures.  
 
 
 
