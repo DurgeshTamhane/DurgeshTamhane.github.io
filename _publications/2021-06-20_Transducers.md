@@ -15,8 +15,9 @@ citation: "Thalapil J., Tamhane D., Banerjee S., Tallur S. Corrosion Monitoring 
 This paper adapts a frequency-domain contour-plot (graphical) inverse technique to estimate the thicknesses of the uncorroded zinc and corroded zinc-oxide layers on PZT-instrumented sacrificial anode discs. By deriving analytical expressions for radial and transverse resonance modes and plotting zero-level contours in the (h₁, h₂) plane, the intersection yields the layer thicknesses directly — no iterative optimization or calibration required. The method is validated with extensive finite-element simulations and impressed-current accelerated-corrosion experiments; results show strong agreement despite realistic non-uniform corrosion and delamination dynamics. The Transducers paper is the conference version of this contour-plot approach.
 
 ## Key Findings
-- **Contour-plot technique:** Uses intersections of resonance-frequency relations to estimate zinc and zinc-oxide layer thicknesses.  
-- **Calibration-free:** Provides a direct graphical solution without iterative computation or prior calibration.  
-- **Validation:** Finite element simulations and impressed-current corrosion experiments confirm accuracy despite non-uniform corrosion.  
-- **Lightweight computation:** Enables real-time, in-situ sacrificial anode health monitoring in cathodic protection systems.  
+- A contour-plot analysis of EMI spectra estimates zinc and zinc-oxide layer thicknesses directly.  
+- The method is calibration-free and does not require iterative computation.  
+- Finite element simulations and impressed-current experiments validate the approach.  
+- Enables real-time, in-situ monitoring of sacrificial anode corrosion in cathodic protection systems.  
+
 
