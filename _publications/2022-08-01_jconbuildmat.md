@@ -12,7 +12,25 @@ citation: 'Tamhane D. Performance evaluation of electro-mechanical impedance bas
 ---
 
 ![EMI monitoring of sacrificial anode](/files/publications/images/cons_build2022.jpg)
-Sacrificial anodes have been commonly used as a convenient and an affordable method to protect steel rebars embedded in reinforced concrete structures from corrosion, thereby extending their remaining service life. While the electro-mechanical impedance (EMI) technique has been established to be an effective technique for monitoring of concrete properties and corrosion, the effectiveness of this technique when applied to estimating state-of-health of sacrificial anodes embedded in concrete has not yet been investigated. In this work, we study the performance of EMI-based monitoring of incipient corrosion of sacrificial anodes embedded in conductive mortar and reinforced concrete. Through impressed current based accelerated corrosion experiments, we demonstrate that the root mean square deviation (RMSD) of the conductance spectra of lead zirconate titanate (PZT) transducer fitted to a sacrificial anode provides high sensitivity as a performance metric to analyze change in state-of-health of the anode. Further, analytical and FE models are developed for validating the experimental results obtained using impressed current based accelerated corrosion setup. It is found that the RMSD varies non-linearly with increasing time of application of impressed current, that can be explained adequately by the delamination dynamics of corrosion by-products and damping captured by the models. The primary advantage of this technique over conventional methods is that the degradation of the sacrificial anode in the concrete structure can be non-destructively and deterministically assessed in real time.
+
+
+
+
+Sacrificial anodes have long been employed as a convenient and affordable method to protect reinforcing steel against corrosion in concrete structures. However, their own degradation is rarely assessed in situ. This paper investigates the feasibility of using electro-mechanical impedance (EMI) sensing with PZT transducers bonded to sacrificial anodes to track their health inside conductive mortar and reinforced concrete.
+
+Accelerated corrosion experiments under impressed current demonstrate that the root mean square deviation (RMSD) of conductance spectra provides a highly sensitive metric for monitoring progressive anode degradation. The study also develops analytical and finite element models that reproduce the observed nonlinear RMSD evolution with corrosion time, linking the trend to delamination dynamics of corrosion by-products and associated damping.
+
+Unlike conventional destructive or indirect electrochemical methods, this approach enables non-destructive, deterministic, and real-time state-of-health monitoring of sacrificial anodes embedded within concrete systems.
+
+##Key Findings
+
+High sensitivity: RMSD of EMI spectra detects early and progressive corrosion of zinc sacrificial anodes in mortar and concrete.
+
+Nonlinear evolution: RMSD increases nonlinearly with impressed current duration, explained by delamination and damping captured in analytical/FE models.
+
+Validation: Experimental observations are consistent with finite element simulations of PZT–anode interaction.
+
+Advantage over conventional methods: Enables in-situ, non-destructive, real-time monitoring of anode degradation.
 
 
 
