@@ -6,7 +6,7 @@ permalink: /publication/Apr2021_smartmat
 excerpt: "This paper proposes a calibration-free graphical method to estimate zinc and zinc-oxide layer thicknesses on sacrificial anodes from bulk acoustic wave resonances. Validated with finite element analysis and accelerated corrosion experiments, the approach offers a simple and reliable tool for real-time anode health monitoring."
 date: 2021-04-16
 venue: "Smart Materials and Structures"
-paperurl: "http://durgeshtamhane.github.io/files/2021-04-16_Smart_Materials.pdf"
+paperurl: "http://durgeshtamhane.github.io/files/publications/pdfs/2021-04-16_Smart_Materials.pdf"
 citation: "Thalapil J, Tamhane D, Banerjee S, Tallur S. Vibration-based inverse graphical technique for thickness estimation of bulk acoustic wave (BAW) resonators: application for corrosion monitoring of sacrificial anodes. Smart Mater. Struct. 30 (2021) 055015."
 ---
 Monitoring the corrosion of sacrificial anodes in reinforced concrete structures typically requires either destructive inspection or
