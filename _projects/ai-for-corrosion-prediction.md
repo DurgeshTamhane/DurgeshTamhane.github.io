@@ -8,7 +8,6 @@ collection: projects
 author-profilr: true
 ---
 
-## Overview
 This project focuses on predicting the corrosion performance of coatings on steel plates using machine learning models trained on weight change, capacitance (electrochemical measurements), and adhesion strength data.
 
 ## Goals
