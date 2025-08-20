@@ -3,10 +3,11 @@ title: "AI for Corrosion Prediction"
 status: ongoing
 date: 2025-08-16
 description: "ML models to predict coating degradation using electrochemical and weight change data."
-layout: archive
+layout: single
 collection: projects
-author-profilr: true
+author_profile: true
 ---
+
 
 This project focuses on predicting the corrosion performance of coatings on steel plates using machine learning models trained on weight change, capacitance (electrochemical measurements), and adhesion strength data.
 
