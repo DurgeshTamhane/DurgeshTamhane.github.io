@@ -7,6 +7,16 @@ author_profile: true
 
 {% include base_path %}
 
+## Ongoing Projects
 {% for post in site.projects %}
-  {% include archive-single.html %}
+  {% if post.status == "ongoing" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+## Completed Projects
+{% for post in site.projects %}
+  {% if post.status == "completed" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
