@@ -100,4 +100,10 @@ Tamhane, D. *Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux
 
 ## BibTeX
 ```bibtex
-@misc{tamhane2023m
+@misc{tamhane2023mfl,
+  author       = {Tamhane, Durgesh},
+  title        = {Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage},
+  year         = {2023},
+  howpublished = {Term project report for the course CE 720: Non-Destructive Testing of Materials, IIT Bombay},
+  url          = {https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/}
+}
