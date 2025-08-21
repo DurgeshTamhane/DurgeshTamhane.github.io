@@ -9,6 +9,10 @@ date: 2023-04-15
 description: "Term project on non-destructive testing of coated steel sheets using magnetic flux leakage and STMicroelectronics SensorTile.box."
 ---
 
+This project demonstrates the use of a **portable magnetic flux leakage (MFL) setup** built on STMicroelectronics’ SensorTile.box platform for detecting sub-coating defects in steel sheets. It shows how artificial gaps and different coatings affect flux leakage signals, validating the feasibility of low-cost embedded NDT.
+
+<!--more-->
+
 ## Overview
 This project explores the detection of defects in steel sheets covered with non-conducting coatings using the principle of **Magnetic Flux Leakage (MFL)**.  
 A compact setup based on **STMicroelectronics SensorTile.box**—which integrates the **LIS2MDL 3-axis magnetometer**—was developed to measure magnetic field variations caused by artificial defect gaps under coated surfaces.  
