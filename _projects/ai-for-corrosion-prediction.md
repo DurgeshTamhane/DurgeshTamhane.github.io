@@ -8,8 +8,9 @@ collection: projects
 author_profile: true
 ---
 
+This project focuses on building **machine learning models** to predict the corrosion performance of coated steel plates using data such as weight change, capacitance (electrochemical measurements), and adhesion strength. It establishes a framework to scale from simple lab experiments to predictive corrosion modeling.
 
-This project focuses on predicting the corrosion performance of coatings on steel plates using machine learning models trained on weight change, capacitance (electrochemical measurements), and adhesion strength data.
+<!--more-->
 
 ## Goals
 - Validate whether wet-dry saltwater cycling causes measurable degradation.
