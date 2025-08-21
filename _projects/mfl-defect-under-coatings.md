@@ -101,6 +101,7 @@ Harvard style:
 Tamhane, D. *Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage*. Available at: [https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/](https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/).
 
 ---
+[Download PDF](/files/projects/pdfs/defect_under_coatings_durgesh.pdf)
 
 ## BibTeX
 ```bibtex
