@@ -80,10 +80,10 @@ This study validated the feasibility of **non-destructive defect detection in co
 In this work, a sensitive Hall sensor (LIS2MDL) is used, which comes inbuilt with the microcontroller in **STMicroelectronics’s SensorTile.box**.
 
 ### About the LIS2MDL
-The **LIS2MDL** is an ultra-low-power, high-performance 3-axis digital magnetic sensor with a dynamic range of ±50 gauss. It offers a 16-bit digital output, supports both SPI and I²C interfaces, includes a programmable interrupt generator, embedded self-test, and operates across −40 °C to +85 °C. ([STMicroelectronics, 2018](https://www.st.com/resource/en/datasheet/lis2mdl.pdf))
+The **LIS2MDL** is an ultra-low-power, high-performance 3-axis digital magnetic sensor with a dynamic range of ±50 gauss. It offers a 16-bit digital output, supports both SPI and I²C interfaces, includes a programmable interrupt generator, embedded self-test, and operates across −40 °C to +85 °C. ([LIS2MDL, STMicroelectronics, 2018](https://www.st.com/resource/en/datasheet/lis2mdl.pdf))
 
 ### About SensorTile.box
-The **SensorTile.box (STEVAL-MKSBOX1V1)** is a ready-to-use wireless IoT and wearable sensor platform. It features multiple high-precision sensors—including the LIS2MDL magnetometer—integrated with Bluetooth connectivity, a rechargeable battery, and support for entry/expert application modes via the ST BLE Sensor app. ([STMicroelectronics, 2021](https://www.st.com/resource/en/data_brief/steval-mksbox1v1.pdf))
+The **SensorTile.box (STEVAL-MKSBOX1V1)** is a ready-to-use wireless IoT and wearable sensor platform. It features multiple high-precision sensors—including the LIS2MDL magnetometer—integrated with Bluetooth connectivity, a rechargeable battery, and support for entry/expert application modes via the ST BLE Sensor app. ([SensorTile.box, STMicroelectronics, 2021](https://www.st.com/resource/en/data_brief/steval-mksbox1v1.pdf))
 
 
 ## Recommended Citation
