@@ -1,108 +1,103 @@
 ---
-title: "Detection of Defects in Steel Sheets Under Coatings using Magnetic Flux Leakage"
-status: completed
-date: 2025-08-21
-description: "Term project report for the course CE 720: Non-Destructive Testing of Materials at IIT Bombay"
+title: "Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage"
+permalink: /projects/mfl-steel-under-coatings/
 layout: single
 collection: projects
+status: completed
 author_profile: true
-permalink: /projects/mfl-steel-under-coatings/
+date: 2023-04-15
+description: "Term project on non-destructive testing of coated steel sheets using magnetic flux leakage and STMicroelectronics SensorTile.box."
 ---
 
-Steel structures are often protected with coatings to prevent corrosion. However, defects such as pits, cracks, or localized corrosion can develop **beneath these coatings**, compromising long-term durability. Traditional inspection methods often require **removing the coating**, which is labor-intensive, time-consuming, and may damage the surface.  
+## Overview
+This project explores the detection of defects in steel sheets covered with non-conducting coatings using the principle of **Magnetic Flux Leakage (MFL)**.  
+A compact setup based on **STMicroelectronics SensorTile.box**—which integrates the **LIS2MDL 3-axis magnetometer**—was developed to measure magnetic field variations caused by artificial defect gaps under coated surfaces.  
 
-This project explores the use of **Magnetic Flux Leakage (MFL)** for *non-destructive detection of hidden defects* under coatings. MFL works by magnetizing a steel specimen and measuring flux "leakage" caused by discontinuities. This allows defect detection **without removing the coating**.
-
----
-
-## Objectives
-- Develop a methodology for detecting defects beneath coatings using MFL.  
-- Study the influence of coating thickness and defect geometry on detection sensitivity.  
-- Validate MFL signals against controlled artificial defects.  
+By analyzing flux leakage signatures, the system demonstrates the feasibility of a **portable, low-cost, and wireless NDT tool** for industrial inspection.
 
 ---
 
 ## Experimental Setup
-- **Specimens**: Mild steel sheets with artificial defects (notches and corrosion pits) introduced.  
-- **Coatings**: Applied polymer-based coatings of varying thickness to simulate protective layers.  
-- **Excitation**: A DC magnetizing yoke was used to induce flux into the specimen.  
-- **Sensors**: A Hall effect sensor array scanned across the surface to measure flux leakage.  
-- **Data Acquisition**: Signals were digitized and analyzed to extract leakage patterns.  
 
-👉 *[Insert Figure of MFL setup here]*  
+The experimental setup employed neodymium magnets to magnetize the steel sheet. The SensorTile.box, containing the LIS2MDL magnetometer and STM32L4 microcontroller with Bluetooth connectivity, was positioned between the magnets to capture leakage fields. Data was transmitted wirelessly to a mobile device for real-time analysis.
 
----
+![Experimental Setup](/files/projects/images/stm_and_model.png)  
+*Figure 1: (a) SensorTile.box with neodymium magnets and embedded LIS2MDL. (b) Schematic of defect detection with magnetic flux leakage and Bluetooth readout.*
 
-## Methodology
-1. **Magnetization**: Steel plate was magnetized using a yoke, ensuring near-saturation magnetization.  
-2. **Defect Simulation**: Artificial slots and pits were created on the steel surface before coating.  
-3. **Coating Application**: Coatings of thickness ranging from ~100 μm to ~500 μm were applied.  
-4. **Scanning**: The Hall sensor scanned over coated regions containing defects.  
-5. **Signal Analysis**:  
-   - Raw leakage signals were collected.  
-   - Signal-to-noise ratios (SNR) were computed to evaluate detection limits.  
-   - Signal shape (peaks, asymmetry) was compared with defect type.  
+The scanning process involved moving the sensor across the coated steel plate in a controlled direction.
+
+![Testing of Sample](/files/projects/images/testing_of_sample.png)  
+*Figure 2: Scanning procedure across a coated carbon steel sheet with an artificial defect gap.*
 
 ---
 
-## Results
-- **Clear Leakage Peaks**: Defects beneath coatings produced distinguishable peaks in the MFL signal.  
-- **Effect of Coating Thickness**:  
-  - Thinner coatings (≤200 μm) showed sharp, high SNR signals.  
-  - Thicker coatings attenuated signals but defects remained identifiable.  
-- **Defect Geometry Influence**:  
-  - Wider notches produced broader leakage signals.  
-  - Deeper pits gave stronger amplitudes, confirming MFL sensitivity to depth.  
-- **Repeatability**: Multiple scans confirmed stability of measurements.  
+## Defect Gap Analysis
 
-👉 *[Insert Figures of sample signal graphs]*  
+Artificial gaps of varying sizes were introduced between two adjoining steel sheets to simulate defects. The response of the magnetometer was recorded under different conditions.
 
----
+![Defect Gap Configurations](/files/projects/images/defect_gap.png)  
+*Figure 3: Test samples with no gap, 3 mm gap, and 6 mm gap.*
 
-## Key Findings
-- MFL can **reliably detect sub-surface defects** in steel sheets without removing protective coatings.  
-- Coating thickness does reduce sensitivity but does not eliminate defect visibility up to ~500 μm.  
-- The method is especially suitable for **in-field inspection of pipelines, tanks, and coated steel sheets**.  
-- Compared to destructive methods, MFL offers a **fast, low-cost, and scalable** inspection solution.  
+The results showed a clear increase in magnetometer readings with larger gaps, indicating higher flux leakage.
+
+![Gap Size vs. Magnetic Response](/files/projects/images/gap_size_magnetic_flux_intensity.png)  
+*Figure 4: Relationship between defect gap size and measured magnetometer signal.*
 
 ---
 
-## Outcome
-This study validated the feasibility of **non-destructive defect detection in coated steel** using Magnetic Flux Leakage. With optimization of sensor sensitivity and magnetization strength, the approach can be extended to **industrial-scale corrosion monitoring**.  
+## Influence of Coating Materials
 
-👉 *[Insert Figure: Summary schematic of defect detection workflow]*  
+To investigate the effect of coatings, different materials such as **plywood, cardboard, paper, and rubber** with varying thicknesses were placed above the defect region.
+
+![Effect of Coating Stacks](/files/projects/images/layered_stacks.png)  
+*Figure 5: Magnetic flux leakage signals for plywood, rubber, and mixed stacks with different thicknesses.*
+
+The MFL method remained effective across different dielectric coatings, though the signal attenuation increased with coating thickness.
+
+![Scan Results Across Coatings](/files/projects/images/scan_results.png)  
+*Figure 6: Magnetic flux leakage signals across different coating materials and thicknesses.*
 
 ---
 
+## Additional Components
 
-## Components
+In this work, a sensitive magnetometer (**LIS2MDL**) is used, which comes built into the SensorTile.box platform.  
 
-In this work, a sensitive Hall sensor (LIS2MDL) is used, which comes inbuilt with the microcontroller in **STMicroelectronics’s SensorTile.box**.
+- **LIS2MDL:** A 3-axis ultra-low-power magnetometer with ±50 gauss range, 16-bit resolution, and digital I²C/SPI output ([STMicroelectronics, 2018](https://www.st.com/resource/en/datasheet/lis2mdl.pdf)).  
+- **SensorTile.box (STEVAL-MKSBOX1V1):** A wireless IoT and sensor kit featuring an STM32L4 MCU, Bluetooth connectivity, rechargeable battery, and multiple MEMS sensors including the LIS2MDL ([STMicroelectronics, 2021](https://www.st.com/resource/en/data_brief/steval-mksbox1v1.pdf)).
 
-### About the LIS2MDL
-The **LIS2MDL** is an ultra-low-power, high-performance 3-axis digital magnetic sensor with a dynamic range of ±50 gauss. It offers a 16-bit digital output, supports both SPI and I²C interfaces, includes a programmable interrupt generator, embedded self-test, and operates across −40 °C to +85 °C. ([LIS2MDL, STMicroelectronics, 2018](https://www.st.com/resource/en/datasheet/lis2mdl.pdf))
+---
 
-### About SensorTile.box
-The **SensorTile.box (STEVAL-MKSBOX1V1)** is a ready-to-use wireless IoT and wearable sensor platform. It features multiple high-precision sensors—including the LIS2MDL magnetometer—integrated with Bluetooth connectivity, a rechargeable battery, and support for entry/expert application modes via the ST BLE Sensor app. ([SensorTile.box, STMicroelectronics, 2021](https://www.st.com/resource/en/data_brief/steval-mksbox1v1.pdf))
+## Outcomes
+- Developed a **portable and wireless defect detection tool** for steel sheets under coatings.  
+- Demonstrated that **defect size strongly correlates with flux leakage signals**, detectable even with coating layers.  
+- Validated that MFL can be adapted into a **low-cost, embedded NDT method** using commercial sensor platforms.  
 
+---
 
-## Recommended Citation
-<p style="font-size:0.85em; color:gray;">
-Tamhane, D., <i>Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage</i>.  
-Term project report for CE 720: Non-Destructive Testing of Materials, IIT Bombay.  
-Available at: <a href="https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/">https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/</a>
-</p>
+## Key Learnings & Future Work
+
+### Key Learnings
+- Gained hands-on experience in **non-destructive testing (NDT)** using magnetic flux leakage.  
+- Worked with **embedded sensor platforms (STM32 + LIS2MDL)** and Bluetooth-based data acquisition.  
+- Understood the **influence of coating materials** on detection sensitivity.  
+- Developed skills in **signal analysis, experimental design, and interpretation of MFL data**.
+
+### Future Work
+- Extend testing to **real industrial coatings** (paints, epoxy layers) instead of lab substitutes.  
+- Improve system sensitivity by integrating **higher resolution magnetometers** and **adaptive signal processing**.  
+- Miniaturize the device further for **field-deployable inspection kits**.  
+- Explore **machine learning** approaches for automated defect classification.
+
+---
+
+## Citation
+Harvard style:  
+
+Tamhane, D. *Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage*. Available at: [https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/](https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/).
 
 ---
 
 ## BibTeX
 ```bibtex
-@techreport{tamhane2025mfl,
-  author       = {Tamhane, Durgesh},
-  title        = {Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage},
-  institution  = {Indian Institute of Technology Bombay},
-  year         = {2025},
-  type         = {Term Project Report},
-  note         = {Submitted as part of CE 720: Non-Destructive Testing of Materials},
-  howpublished = {\url{https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/}}
-}
+@misc{tamhane2023m
