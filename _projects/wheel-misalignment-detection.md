@@ -9,7 +9,7 @@ date: 2023-12-10
 description: "A low-cost magnetic sensor-based system to detect camber and toe misalignment in wheels."
 ---
 
-## Introduction
+
 This project explores a **magnetic sensor-based technique for detecting wheel misalignment**, focusing on **toe** and **camber** angles. Misalignment can affect vehicle performance, safety, and tire wear. Traditional alignment machines are bulky and expensive. This work demonstrates how a compact magnetometer setup can reliably measure misalignments.
 
 ## Experimental Setup
