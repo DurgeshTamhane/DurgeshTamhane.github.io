@@ -6,16 +6,16 @@ author_profile: true
 
 I create **sensing systems for corrosion monitoring** that connect physics, electrochemistry, and data-driven methods.  
 From **EMI and PEC probes** to **machine learning prediction models**, my work focuses on building **simple, reliable, and scalable tools** for protecting infrastructure.  
-Explore my [Publications](/publications/), [Projects](/projects/), [Patents](/patents/), and [Posts](/posts/).
+Explore more in my [Publications](/publications/), [Projects](/projects/), and [Patents](/patents/).
 
 ---
 
 ## What I’m Working On
 - Applying **electrochemical methods** (LPR, Tafel, CPP, EIS) for evaluating coatings, admixtures, and inhibitors.  
 - Developing **lab-scale and field-deployable devices** for real-time corrosion performance testing.  
-- Exploring **AI-driven corrosion prediction models** trained on electrochemical and adhesion datasets — see [Projects](/projects/).  
-- Expanding **technology and IP** through sensor innovations — see [Patents](/patents/).  
-- Sharing science through practical guides and experiments — see [Posts](/posts/).  
+- Building **AI-driven corrosion prediction models** trained on electrochemical and adhesion datasets.  
+- Expanding **technology and IP** through sensor innovations.  
+- Sharing science through hands-on guides and experiments (see [Posts](/posts/)).  
 
 ---
 
@@ -29,19 +29,19 @@ Explore my [Publications](/publications/), [Projects](/projects/), [Patents](/pa
 ---
 
 ## Highlights
-- **Publications:** Work featured in IEEE Sensors Journal, Smart Materials and Structures, Construction & Building Materials, IEEE Access — browse [Publications](/publications/).  
-- **Patents:** Innovations in EMI-based monitoring and PEC-based corrosion detection — see [Patents](/patents/).  
-- **Projects:** Comparative EMI/PEC studies, AI for corrosion prediction, IoT-enabled cathodic protection — see [Projects](/projects/).  
-- **Recognition:** Awards in student innovation contests and teaching excellence.  
+- **Publications** in IEEE Sensors Journal, Smart Materials and Structures, Construction & Building Materials, IEEE Access.  
+- **Patents** granted in EMI-based monitoring and PEC-based corrosion detection.  
+- **Projects** combining FEM, EMI, PEC, and AI approaches.  
+- **Recognition** in innovation contests and teaching excellence awards.  
 
 ---
 
 ## Selected Work
-- **PEC vs EMI:** Comparative analysis of sacrificial anode monitoring — [Publications](/publications/).  
+- **PEC vs EMI:** Comparative analysis of sacrificial anode monitoring.  
 - **Graphical EMI methods:** Calibration-free thickness estimation.  
 - **PEC + PCA:** Robust rebar corrosion detection at large lift-offs.  
-- **AI for corrosion prediction:** Supervised models for performance forecasting — [Projects](/projects/).  
-- **Outreach:** Science guides and experiments for students — [Posts](/posts/).  
+- **AI for corrosion prediction:** Supervised models for performance forecasting.  
+- **Science outreach:** Guides and experiments for students.  
 
 ---
 
