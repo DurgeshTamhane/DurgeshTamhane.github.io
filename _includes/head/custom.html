@@ -1,3 +1,21 @@
+{% include base_path %}
+
+<!-- start custom head snippets -->
+
+<!-- Support for Academicons -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
+
+<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
+<link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
+<link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
+<link rel="icon" href="/images/favicon.ico"/>
+<meta name="theme-color" content="#ffffff"/>
+
+<!-- end custom head snippets -->
+
 {% if page.use_plotly or page.use_math or page.use_mermaid %}
 <script>
   function loadScript(src, type="text/javascript") {
@@ -11,27 +29,27 @@
   document.addEventListener("DOMContentLoaded", function() {
     // Load Plotly only if requested
     {% if page.use_plotly %}
-    loadScript("https://cdn.plot.ly/plotly-3.0.1.min.js");
+      loadScript("https://cdn.plot.ly/plotly-3.0.1.min.js");
     {% endif %}
 
     // Load MathJax only if explicitly enabled
     {% if page.use_math %}
-    window.MathJax = {
-      tex: {
-        inlineMath: [['$', '$'], ['\\(', '\\)']],
-        displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        tags: 'ams'
-      },
-      options: {
-        skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
-      }
-    };
-    loadScript("https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js");
+      window.MathJax = {
+        tex: {
+          inlineMath: [['$', '$'], ['\\(', '\\)']],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          tags: 'ams'
+        },
+        options: {
+          skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+        }
+      };
+      loadScript("https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js");
     {% endif %}
 
     // Load Mermaid only if requested
     {% if page.use_mermaid %}
-    loadScript("https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs", "module");
+      loadScript("https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs", "module");
     {% endif %}
   });
 </script>
