@@ -96,7 +96,6 @@ In this work, a sensitive magnetometer (**LIS2MDL**) is used, which comes built 
 ---
 
 ## Citation
-Harvard style:  
 
 Tamhane, D. *Detection of Defect in Steel Sheets Under Coatings by Magnetic Flux Leakage*. Available at: [https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/](https://durgeshtamhane.github.io/projects/mfl-steel-under-coatings/).
 
