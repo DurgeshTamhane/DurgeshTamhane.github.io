@@ -1,50 +1,47 @@
 ---
-title: "About"
-permalink: /about/
+title: "Home"
+permalink: /
 author_profile: true
 ---
 
-
-I work at the intersection of **corrosion monitoring**, **non-destructive evaluation (NDE)**, and **materials–electrochemistry**. My focus is on designing practical measurement systems that translate from fundamental concepts to field-ready tools.
+I create **sensing systems for corrosion monitoring** that connect physics, electrochemistry, and data-driven methods.  
+From **EMI and PEC probes** to **machine learning prediction models**, my work focuses on building **simple, reliable, and scalable tools** for protecting infrastructure.  
+Explore my [Publications](/publications/), [Projects](/projects/), [Patents](/patents/), and [Posts](/posts/).
 
 ---
 
-## Current Focus
-- Developing **electrochemical assessment techniques** for coatings, admixtures, and inhibitors.  
-- Creating **sensor systems** based on Electro-Mechanical Impedance (EMI), Pulsed Eddy Current (PEC), and magnetic methods.  
-- Applying **machine learning** for corrosion prediction using electrochemical and adhesion data.  
-- Building experimental rigs and instruments for **field and laboratory validation**.  
+## What I’m Working On
+- Applying **electrochemical methods** (LPR, Tafel, CPP, EIS) for evaluating coatings, admixtures, and inhibitors.  
+- Developing **lab-scale and field-deployable devices** for real-time corrosion performance testing.  
+- Exploring **AI-driven corrosion prediction models** trained on electrochemical and adhesion datasets — see [Projects](/projects/).  
+- Expanding **technology and IP** through sensor innovations — see [Patents](/patents/).  
+- Sharing science through practical guides and experiments — see [Posts](/posts/).  
 
 ---
 
 ## Research Interests
-- Non-destructive evaluation of corrosion using EMI, PEC, and magnetic probes.  
-- Cathodic protection and sacrificial anode health monitoring.  
-- Electrochemical techniques: EIS, LPR, Tafel, CPP.  
-- MEMS and piezoelectric microtransducers for corrosion sensing.  
-- Machine learning for feature engineering and predictive models in corrosion studies.  
+- Non-destructive evaluation of corrosion (EMI, PEC, magnetic sensing).  
+- Sacrificial anode health monitoring and cathodic protection.  
+- Electrochemical characterization of inhibitors, admixtures, and coatings.  
+- MEMS and piezoelectric transducers for sensing applications.  
+- Machine learning for corrosion datasets.  
 
 ---
 
 ## Highlights
-- **Patents:** Innovations in EMI-based anode monitoring and PEC-based rebar corrosion detection.  
-- **Publications:** Contributions in IEEE Sensors Journal, Smart Materials and Structures, Construction & Building Materials, IEEE Access.  
-- **Recognition:** Awards in student innovation contests and excellence in teaching assistance.  
-- **Projects:** AI-driven corrosion prediction, IoT-enabled cathodic protection systems, and outreach for hands-on science learning.  
-
----
-
-## Approach
-The guiding principle is to design **simple, reliable, and scalable measurement methods**. Starting from physical models, systems are built and validated with analytical tools, finite element simulations, and real-world testing. This ensures results that are both accurate and practically deployable.  
+- **Publications:** Work featured in IEEE Sensors Journal, Smart Materials and Structures, Construction & Building Materials, IEEE Access — browse [Publications](/publications/).  
+- **Patents:** Innovations in EMI-based monitoring and PEC-based corrosion detection — see [Patents](/patents/).  
+- **Projects:** Comparative EMI/PEC studies, AI for corrosion prediction, IoT-enabled cathodic protection — see [Projects](/projects/).  
+- **Recognition:** Awards in student innovation contests and teaching excellence.  
 
 ---
 
 ## Selected Work
-- **PEC vs EMI:** Comparative analysis showing EMI excels at early detection while PEC offers linear lifetime tracking.  
-- **Graphical EMI methods:** Calibration-free approaches for estimating zinc and oxide thicknesses.  
-- **PEC + PCA:** Enhanced rebar corrosion assessment at large lift-offs.  
-- **AI for corrosion prediction:** Machine learning applied to laboratory datasets for performance forecasting.  
-- **Science outreach:** Guides and simple experiments for students to engage with research.  
+- **PEC vs EMI:** Comparative analysis of sacrificial anode monitoring — [Publications](/publications/).  
+- **Graphical EMI methods:** Calibration-free thickness estimation.  
+- **PEC + PCA:** Robust rebar corrosion detection at large lift-offs.  
+- **AI for corrosion prediction:** Supervised models for performance forecasting — [Projects](/projects/).  
+- **Outreach:** Science guides and experiments for students — [Posts](/posts/).  
 
 ---
 
@@ -58,11 +55,5 @@ The guiding principle is to design **simple, reliable, and scalable measurement 
 
 ---
 
-## Bio (short)
-Trained across physics, engineering, and materials science, with research spanning nanofluids, nuclear structure physics, biosensing, and corrosion monitoring. This interdisciplinary foundation supports the design of next-generation non-destructive sensing systems.  
-
----
-
-## Contact
-- **Email:** available in site header  
-- **Scholar, GitHub, LinkedIn:** linked above  
+## Background
+Interdisciplinary training across physics, engineering, and materials science, with research experience spanning nanofluids, nuclear structure physics, biosensing, and corrosion monitoring. This foundation drives the development of next-generation non-destructive sensing systems.  
