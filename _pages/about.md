@@ -4,8 +4,7 @@ permalink: /
 author_profile: true
 ---
 
-I create **sensing systems for corrosion monitoring** that connect physics, electrochemistry, and data-driven methods.  
-From **EMI and PEC probes** to **machine learning prediction models**, my work focuses on building **simple, reliable, and scalable tools** for protecting infrastructure.  
+I design and develop innovative tools and methods for material characterization and nondestructive evaluation, integrating physics, electronics, electrochemistry, and data-driven approaches. My work focuses on creating simple, reliable, and scalable sensing systems that drive both fundamental discoveries and real-world applications.
 Explore more in my [Publications](/publications/), [Projects](/projects/), and [Patents](/patents/).
 
 ---
@@ -25,6 +24,11 @@ Explore more in my [Publications](/publications/), [Projects](/projects/), and [
 - Electrochemical characterization of inhibitors, admixtures, and coatings.  
 - MEMS and piezoelectric transducers for sensing applications.  
 - Machine learning for corrosion datasets.  
+
+---
+## Education
+- **Masters** in Physics, University of Mumbai
+- **PhD** in Electrical Engineering, IIT Bombay
 
 ---
 
