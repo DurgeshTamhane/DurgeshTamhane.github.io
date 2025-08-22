@@ -4,7 +4,7 @@ permalink: /
 author_profile: true
 ---
 
-I design and develop tools and methods for material characterization and nondestructive evaluation that integrate physics, electronics, electrochemistry, and data-driven approaches. My research focuses on developing simple, reliable, and scalable sensing systems that contribute towards both fundamental understanding and practical applications.
+I design and develop tools and methods for material characterization and nondestructive evaluation that integrate physics, electronics, electrochemistry, and data-driven approaches. My research focuses on building simple, reliable, and scalable sensing systems that contribute to both fundamental understanding and practical applications.
 
 Explore more in my [Publications](/publications/), [Projects](/projects/), and [Patents](/patents/).
 
