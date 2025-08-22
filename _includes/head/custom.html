@@ -16,19 +16,41 @@
 
 <!-- end custom head snippets -->
 
-{% if page.collection == "posts" or page.collection == "projects" or page.collection == "publications" %}
-  <!-- MathJax Configuration with Equation Numbering -->
-  <script>
+{% if page.use_plotly or page.collection == "posts" or page.collection == "projects" or page.collection == "publications" or page.use_mermaid %}
+<script>
+  function loadScript(src, type="text/javascript") {
+    let s = document.createElement('script');
+    s.src = src;
+    s.type = type;
+    s.defer = true;
+    document.body.appendChild(s);
+  }
+
+  document.addEventListener("DOMContentLoaded", function() {
+    // Load Plotly only if requested
+    {% if page.use_plotly %}
+    loadScript("https://cdn.plot.ly/plotly-3.0.1.min.js");
+    {% endif %}
+
+    // Load MathJax only for posts, projects, publications
+    {% if page.collection == "posts" or page.collection == "projects" or page.collection == "publications" %}
     window.MathJax = {
       tex: {
         inlineMath: [['$', '$'], ['\\(', '\\)']],
         displayMath: [['$$', '$$'], ['\\[', '\\]']],
-        tags: 'ams'   // enables automatic equation numbering
+        tags: 'ams'
       },
       options: {
         skipHtmlTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
       }
     };
-  </script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+    loadScript("https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js");
+    {% endif %}
+
+    // Load Mermaid only if requested
+    {% if page.use_mermaid %}
+    loadScript("https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs", "module");
+    {% endif %}
+  });
+</script>
 {% endif %}
