@@ -10,7 +10,7 @@
 main:
 
   - title: "Posts"
-    url: /year-archive/
+    url: /posts/
 
   - title: "Projects"
     url: /projects/
