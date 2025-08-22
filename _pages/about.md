@@ -28,8 +28,10 @@ Explore more in my [Publications](/publications/), [Projects](/projects/), and [
 
 ---
 ## Education
-- **Masters** in Physics, University of Mumbai
+
 - **PhD** in Electrical Engineering, IIT Bombay
+- **Masters** in Physics, University of Mumbai
+
 
 ---
 
