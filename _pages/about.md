@@ -4,7 +4,6 @@ permalink: /about/
 author_profile: true
 ---
 
-# Imagine. Research. Innovate.
 
 I work at the intersection of **corrosion monitoring**, **non-destructive evaluation (NDE)**, and **materials–electrochemistry**. My focus is on designing practical measurement systems that translate from fundamental concepts to field-ready tools.
 
