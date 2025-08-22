@@ -7,6 +7,7 @@ status: completed
 author_profile: true
 date: 2023-12-10
 description: "A low-cost magnetic sensor-based system to detect camber and toe misalignment in wheels."
+use_math: true  
 ---
 
 
