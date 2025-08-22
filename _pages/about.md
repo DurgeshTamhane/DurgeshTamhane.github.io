@@ -7,6 +7,7 @@ author_profile: true
 I design and develop tools and methods for material characterization and nondestructive evaluation that integrate physics, electronics, electrochemistry, and data-driven approaches. My research focuses on building simple, reliable, and scalable sensing systems that contribute to both fundamental understanding and practical applications.
 
 Explore more in my [Publications](/publications/), [Projects](/projects/), and [Patents](/patents/).
+You can reach me at [dtamhane@outlook.com](mailto:dtamhane@outlook.com) 
 
 ---
 
@@ -64,3 +65,8 @@ Explore more in my [Publications](/publications/), [Projects](/projects/), and [
 
 ## Background
 Interdisciplinary training across physics, engineering, and materials science, with research experience spanning nanofluids, nuclear structure physics, biosensing, and corrosion monitoring. This foundation drives the development of next-generation non-destructive sensing systems.  
+
+---
+
+## Contact
+
