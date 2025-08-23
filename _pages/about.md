@@ -69,5 +69,4 @@ Interdisciplinary training across physics, engineering, and materials science, w
 
 ---
 
-## Contact
 
