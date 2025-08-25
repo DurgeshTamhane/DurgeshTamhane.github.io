@@ -1,7 +1,9 @@
 {% include base_path %}
 
 <!-- start custom head snippets -->
-
+{% if page.use_math %}
+  {% include mathjax_support.html %}
+{% endif %}
 <!-- Academicons (place file at /assets/css/academicons.css) -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
