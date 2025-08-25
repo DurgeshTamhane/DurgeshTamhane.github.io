@@ -7,21 +7,19 @@ status: completed
 author_profile: true
 date: 2023-12-10
 description: "A low-cost magnetic sensor-based system to detect camber and toe misalignment in wheels."
-use_math: true  
+use_math: true
 ---
 
-
-This project explores a **magnetic sensor-based technique for detecting wheel misalignment**, focusing on **toe** and **camber** angles. Misalignment can affect vehicle performance, safety, and tire wear. Traditional alignment machines are bulky and expensive. This work demonstrates how a compact magnetometer setup can reliably measure misalignments.
+This project explores a **magnetic sensor–based technique for detecting wheel misalignment**, focusing on **toe** and **camber** angles. Misalignment can affect vehicle performance, safety, and tire wear. Traditional alignment machines are bulky and expensive. This work demonstrates how a compact magnetometer setup can reliably measure misalignments.
 
 ## Experimental Setup
-A custom apparatus was developed to hold the wheel and allow controlled misalignment in both toe and camber orientations. A permanent magnet was mounted on the rim while a **magnetometer** was positioned strategically to capture variations in magnetic flux as the wheel rotated (Fig. 1).  
-The setup allowed repeatable introduction of misalignment angles and real-time data acquisition.
+A custom apparatus was developed to hold the wheel and allow controlled misalignment in both toe and camber orientations. A permanent magnet was mounted on the rim while a **magnetometer** was positioned strategically to capture variations in magnetic flux as the wheel rotated (Fig. 1). The setup allowed repeatable introduction of misalignment angles and real-time data acquisition.
 
 ![Experimental apparatus](/files/projects/images/WHEEL_APPA.png)  
 *Fig. 1. Experimental setup for measuring toe and camber misalignments.*
 
 ## Magnetometer Calibration
-To establish the sensor’s response, the magnetic field was recorded as a function of the distance from the magnet. As expected, the field intensity decayed exponentially with distance, and the curve fitting achieved an excellent coefficient of determination ($R^2 = 0.99973$) (Fig. 2).
+To establish the sensor’s response, the magnetic field was recorded as a function of the distance from the magnet. As expected for a dipole source, the field intensity **followed a power-law decay with distance** (approximately $B \propto r^{-3}$), and the curve fitting achieved an excellent coefficient of determination of $R^2 = 0.99973$ (Fig. 2).
 
 ![Magnetic field vs distance](/files/projects/images/b_VS_DIST.png)  
 *Fig. 2. Magnetic field decay with distance from the magnet.*
@@ -33,9 +31,10 @@ The magnetometer recorded the vertical field component ($B_z$) as the wheel rota
 *Fig. 3. Time-series signal showing peaks in $B_z$ as the wheel rotates.*
 
 ## Misalignment Detection
-By introducing known toe and camber misalignments, clear correlations were established between the misalignment angle and the magnetic field magnitude. Polynomial fits showed strong agreement with the experimental data (Fig. 4).  
-- **Toe Misalignment:** Both left and right toe misalignments led to systematic changes in $B_y$.  
-- **Camber Misalignment:** Increasing camber misalignment also reduced the field magnitude in a predictable fashion.
+By introducing known toe and camber misalignments, clear correlations were established between the misalignment angle and the measured field components. Polynomial fits showed strong agreement with the experimental data (Fig. 4).
+
+- **Toe Misalignment:** Systematic changes were observed primarily in the lateral in-plane component $B_y$.  
+- **Camber Misalignment:** Increasing camber misalignment reduced the vertical component $B_z$ in a predictable fashion.
 
 ![Magnetic field vs misalignment angles](/files/projects/images/MAG_DEGRESS.png)  
 *Fig. 4. Effect of toe and camber misalignments on the measured magnetic field.*
