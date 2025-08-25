@@ -2,37 +2,40 @@
 
 <!-- start custom head snippets -->
 
-<!-- Support for Academicons -->
+<!-- Academicons (place file at /assets/css/academicons.css) -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-<!-- favicon from https://commons.wikimedia.org/wiki/File:OOjs_UI_icon_academic-progressive.svg -->
+<!-- Favicons & PWA -->
 <link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png"/>
 <link rel="icon" type="image/svg+xml" href="{{ base_path }}/images/favicon.svg"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png" sizes="32x32"/>
 <link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-192x192.png" sizes="192x192"/>
+<link rel="icon" href="{{ base_path }}/images/favicon.ico"/>
 <link rel="manifest" href="{{ base_path }}/images/manifest.json"/>
-<link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
 <!-- end custom head snippets -->
 
 {% if page.use_plotly or page.use_math or page.use_mermaid %}
 <script>
-  function loadScript(src, type="text/javascript") {
-    let s = document.createElement('script');
+  // Lightweight loader with optional onload callback
+  function loadScript(src, { type = "text/javascript", defer = true, async = false, onload = null } = {}) {
+    const s = document.createElement('script');
     s.src = src;
     s.type = type;
-    s.defer = true;
+    s.defer = defer;
+    s.async = async;
+    if (onload) s.onload = onload;
     document.body.appendChild(s);
   }
 
   document.addEventListener("DOMContentLoaded", function() {
-    // Load Plotly only if requested
+    // Plotly — only if requested
     {% if page.use_plotly %}
       loadScript("https://cdn.plot.ly/plotly-3.0.1.min.js");
     {% endif %}
 
-    // Load MathJax only if explicitly enabled
+    // MathJax v3 — only if explicitly enabled
     {% if page.use_math %}
       window.MathJax = {
         tex: {
@@ -47,9 +50,18 @@
       loadScript("https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js");
     {% endif %}
 
-    // Load Mermaid only if requested
+    // Mermaid — load UMD build and initialize
     {% if page.use_mermaid %}
-      loadScript("https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs", "module");
+      loadScript(
+        "https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js",
+        {
+          onload: function () {
+            if (window.mermaid && typeof window.mermaid.initialize === "function") {
+              window.mermaid.initialize({ startOnLoad: true });
+            }
+          }
+        }
+      );
     {% endif %}
   });
 </script>
